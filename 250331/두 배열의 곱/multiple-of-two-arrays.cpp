@@ -30,7 +30,7 @@ int main() {
 
     //새로운 배열 출력
     for( int i = 0; i < 3; i++ ){
-        for( int j = 0;j < 3;j ){
+        for( int j = 0;j < 3;j++ ){
             cout << arr3[i][j] << " ";
         }
         cout << endl;
