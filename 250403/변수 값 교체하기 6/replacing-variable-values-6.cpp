@@ -7,7 +7,7 @@ int main() {
 
     int temp = a;
     a = b;
-    temp = b;
+    b = temp;
 
     cout << a << endl
     << b;
