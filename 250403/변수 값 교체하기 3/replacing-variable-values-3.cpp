@@ -4,11 +4,10 @@ using namespace std;
 int main() {
     int a = 3;
     int b = 5;
-    int temp;
 
-    temp = a;
+    int temp = a;
     a = b;
-    temp = b;
+    b = temp;
 
     cout << a << endl
     << b;
