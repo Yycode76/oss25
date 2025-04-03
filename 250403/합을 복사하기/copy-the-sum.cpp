@@ -8,6 +8,6 @@ int main() {
     //변수 저장
     a = b = c = a+b+c;
 
-    cout << a " " << b << " " << c;
+    cout << a << " " << b << " " << c;
     return 0;
 }
