@@ -11,7 +11,7 @@ int main() {
     cin.get();
     cin >> c;
 
-    cout << c <<'.'<< b << '.' << a;
+    cout << c <<'.'<< a << '.' << b;
 
     return 0;
 }
