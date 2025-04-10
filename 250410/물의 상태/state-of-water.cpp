@@ -1,13 +1,20 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
-    // Please write your code here.
-    int c;
-    cin >> c;
+    // 변수 선언
+    int temp;
 
-    if( c <= 0 ) cout << "ice";
-    else if( c >= 100 ) cout << "vapor";
-    else cout << "water";
+	// 입력
+	cin >> temp;
+    
+    // 출력
+    if(temp < 0)
+		cout << "ice";
+	else if(temp >= 100)
+		cout << "vapor";
+	else
+		cout << "water";
     return 0;
 }
