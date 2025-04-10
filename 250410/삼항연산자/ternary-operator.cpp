@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
@@ -6,7 +7,6 @@ int main() {
     int n;
     cin >> n;
 
-    int score = n == 100? "pass": "failure";
-    cout << score;
+    cout << (( n == 100)? "pass": "failure");
     return 0;
 }
