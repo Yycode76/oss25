@@ -3,18 +3,18 @@ using namespace std;
 
 int main() {
     // Please write your code here.
-    int c;
-    cin >> c;
+    char t;
+    cin >> t;
 
-    if( c=='S' )
+    if( t =='S' )
         cout << "Superior";
-    else if( c=='A' )
+    else if( t =='A' )
         cout << "Excellent";
-    else if( c=='B' )
+    else if( t =='B' )
         cout << "Good";
-    else if( c=='C' )
+    else if( t =='C' )
         cout << "Usually";
-    else if( c=='D' )
+    else if( t =='D' )
         cout << "Effort";
     else 
         cout << "Failure";
