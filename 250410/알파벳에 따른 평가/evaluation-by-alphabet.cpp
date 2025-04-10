@@ -6,15 +6,15 @@ int main() {
     int c;
     cin >> c;
 
-    if( c==S )
+    if( c=='S' )
         cout << "Superior";
-    else if( c==A )
+    else if( c=='A' )
         cout << "Excellent";
-    else if( c==B )
+    else if( c=='B' )
         cout << "Good";
-    else if( c==C )
+    else if( c=='C' )
         cout << "Usually";
-    else if( c==D )
+    else if( c=='D' )
         cout << "Effort";
     else 
         cout << "Failure";
