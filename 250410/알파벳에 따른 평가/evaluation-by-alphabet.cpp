@@ -8,16 +8,15 @@ int main() {
 
     if( c==S )
         cout << "Superior";
-    else ( c==A )
+    else if( c==A )
         cout << "Excellent";
-    else ( c==B )
+    else if( c==B )
         cout << "Good";
-    else ( c==C )
+    else if( c==C )
         cout << "Usually";
-    else ( c==D )
+    else if( c==D )
         cout << "Effort";
     else 
         cout << "Failure";
-    
     return 0;
 }
