@@ -6,11 +6,11 @@ int main() {
     int a,b,c;
     cin >> a >> b >> c;
 
-    if(a < b && a <c)
+    if(a <= b && a <= c)
         cout << a;
-    if(b < c && b <c)
+    else if(b <= c && b <= c)
         cout << b;
-    if(c < a && c<b)
+    else
         cout << c;
     return 0;
 }
