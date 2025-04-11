@@ -4,9 +4,11 @@
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+
     int N;
     cin >> N;
-
     vector<int> arr;
 
     for (int i = 0; i < N; i++) {
@@ -27,8 +29,9 @@ int main() {
         else if (cmd == "get") {
             int k;
             cin >> k;
-            if (k >= 0 && k < arr.size()) {
-                cout << arr[k] << '\n';
+            // 예제에 맞춰서 1-based index 처리
+            if (k >= 1 && k <= arr.size()) {
+                cout << arr[k - 1] << '\n';
             }
         }
     }
