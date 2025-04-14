@@ -2,21 +2,19 @@
 using namespace std;
 
 int main() {
-    // Please write your code here.
-    int a,b,c;
+    int a, b, c;
     cin >> a >> b >> c;
 
-    if(a>b && a>c){
-        if (b>c)
-            cout << b;
-        else
-            cout << c;
-    }
-    else if(b>a && b>c){
-        if (a>c)
-            cout << a;
-        else
-            cout << c;
-    }
+    int mid;
+
+    if ((a >= b && a <= c) || (a <= b && a >= c))
+        mid = a;
+    else if ((b >= a && b <= c) || (b <= a && b >= c))
+        mid = b;
+    else
+        mid = c;
+
+    cout << mid << endl;
+
     return 0;
 }
