@@ -1,9 +1,4 @@
 #include <iostream>
-using namespace std;
-
-int main() {
-    // Please write your code here.
-    #include <iostream>
 
 using namespace std;
 
@@ -27,9 +22,6 @@ int main() {
 		else
 			cout << "F" << " ";
 	}
-
-    return 0;
-}
 
     return 0;
 }
