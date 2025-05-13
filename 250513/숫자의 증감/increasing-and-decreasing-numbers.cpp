@@ -3,17 +3,17 @@ using namespace std;
 
 int main() {
     // Please write your code here.
-    char c,a,d;
+    char c;
     int n;
     cin >> c >> n;
     
-    if( 'c' == 'a'){
+    if( c == 'A'){
         for ( int i = 1; i <= n;i++)
-        cout << i << " ";
+            cout << i << " ";
     }
-    if( 'c' == 'd' ){
+    else if( c == 'D' ){
         for ( int i = n; i >= 1; i--)
-        cout << i << " ";
+            cout << i << " ";
     }
 
     return 0;
