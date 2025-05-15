@@ -12,7 +12,7 @@ int main() {
     }
 
     for( int i = 0; i < n; i++){
-        if ( arr[i] % 2 == 1|| arr[i] % 3 == 0)
+        if ( arr[i] % 2 == 1 && arr[i] % 3 == 0)
         cout << arr[i] << endl;
     }
 
