@@ -7,7 +7,7 @@ int main() {
 
     cin >> a >> b;
 
-    for( int i = 1; i < b; i++){
+    for( int i = 1; i <= b; i++){
         if( i % a == 0)
         prod *= i;
     }
