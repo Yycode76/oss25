@@ -9,7 +9,7 @@ int main() {
 
     while(cin >> n){
 
-        if(n>=30)
+        if(n< 20|| n>=30)
         break;
 
         sum += n;
