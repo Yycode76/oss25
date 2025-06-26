@@ -11,7 +11,7 @@ int main() {
         if( i % c == 0)
         satisfied = true;
     }
-    if(satisfied = true)
+    if(satisfied == true)
     cout << "YES";
 
     else
