@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int a,b,c;
     cin >> a >> b >> c;
-    bool satisfied = ture;
+    bool satisfied = true;
 
     for ( int i =a; i<=b; i++){
         if(i%c == 0){
@@ -13,7 +13,7 @@ int main() {
         }
 
     }
-    if(satisfied == ture)
+    if(satisfied == true)
     cout << "YES";
 
     else
