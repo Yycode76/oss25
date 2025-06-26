@@ -7,8 +7,7 @@ int main() {
     int sum = 0;
     int cnt=0;
 
-    while(1){
-        cin >> n;
+    while(cin >> n){
 
         if(n>=30)
         break;
