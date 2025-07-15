@@ -8,10 +8,12 @@ public class Main {
         int sum = 0;
 
         for(int i=1; i<=100; i++){
-            if(sum + i > n)
-                break;
             sum += i;
+            if (sum >= n) {
+                System.out.println(i);  // 이 수가 N 이상이 되게 만든 수
+                break;
         }
-        System.out.print(sum);
+        
     }
+}
 }
